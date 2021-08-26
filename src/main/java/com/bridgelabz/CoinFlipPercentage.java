@@ -1,5 +1,7 @@
 package com.bridgelabz;
+
 import java.util.Random;
+
 public class CoinFlipPercentage {
     private static final int TAILFLIP = 1;
     // flipping coin 10 times
@@ -25,5 +27,4 @@ public class CoinFlipPercentage {
         System.out.println("percentage of Tails:" + ((tails / COUNT) * 100));
         System.out.println("percentage of Heads:" + ((heads / COUNT) * 100));
     }
-
 }
