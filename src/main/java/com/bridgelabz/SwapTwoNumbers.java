@@ -1,0 +1,18 @@
+package com.bridgelabz;
+import java.util.Scanner;
+public class SwapTwoNumbers {
+    public static void main(String[] args)
+    {
+        int a, b, c;
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter Value in a :");
+        a=s.nextInt();
+        System.out.println("Enter Value in b :");
+        b=s.nextInt();
+        c=a;
+        a=b;
+        b=c;
+        System.out.println("After swapping values in a:" +a);
+        System.out.println("After swapping values in b:" +b);
+    }
+}
